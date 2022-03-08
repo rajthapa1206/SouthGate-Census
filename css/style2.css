@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    place-content: center;
+}
+div.main {
+    max-width: 90%;
+    padding-left: 10%;
+}
+.navbar{
+    position: relative;
+    background-color: rgb(16, 113, 192);
+    height: 50px; 
+    color: white;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+}
+.navbar span{
+    margin-left: 20px;
+}
+li{ 
+    padding-top: 10px;
+    display: inline-flex;  
+    border-left: 2px solid white;
+    width: 200px;
+}
+li a {
+    color: white;
+    padding-left: 70px;
+}
+.navbar span{
+    padding-left: 10px;
+}
+div.footer{
+    margin-top: 18%;
+    background-color: gainsboro;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.footer span.left{
+    padding-left: 10px;
+    position: bottom;
+    float: left;
+}
+span.right{
+    float: right;
+    padding-right:10px;
+}
+div.row{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+div.column{
+    width: 50%;
+    margin: auto;
+    padding:auto;
+}
+.btn-panel {
+    float: right;
+}
+#resetBtn{
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+}
+#submitBtn{
+    background-color: rgb(16, 113, 192);
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+}
+input#fullName{
+    width: 100%;
+}
+input#citizenID, select#state, input#ssn {
+    width: 90%;
+    margin: auto;
+    padding: auto;
+}
